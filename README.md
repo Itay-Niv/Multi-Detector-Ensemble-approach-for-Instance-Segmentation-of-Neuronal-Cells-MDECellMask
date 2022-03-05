@@ -49,6 +49,10 @@ Open notebook:   /utils/COCO_dataset_generator.ipynb          (run the notebook 
 3) Must modify in each config file the next parmaeters (lines 1-11): main_dir, exp_name, wnb_username, wnb_project_name, livecell_or_sartorius (as instructed in it).
 4) As fully explaind in our report, we first pretrained each model with Livecell dataset, to do so, choose in each config file if to train on Livecell dataset or competition dataset.
 
+## Weights
+1) Download pretrained weights and final weights from: https://drive.google.com/drive/folders/14H9JhEJYmzQbvaEdQCzupx97kbzVLt0m?usp=sharing
+2) Place each weight file in the corresponding model folder. For example, in /models/det/det1_cascade_rcnn_resnext/pretrained_weights and /models/det/det1_cascade_rcnn_resnext/final_weights. 
+
 ## Training
 ```
 1) Open notebook:   /training_scripts/det/det1_cascade_rcnn_resnext.ipynb            (and run the notebook as instructed in it).
