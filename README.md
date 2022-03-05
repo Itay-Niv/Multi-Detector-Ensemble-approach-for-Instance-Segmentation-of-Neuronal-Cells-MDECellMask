@@ -37,7 +37,7 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 ├───── ann_coco_sartorius_val_95_5
 └───── ann_coco_semi
 ```
-6) Download or clone this github folde, and place the data folder inside.
+6) Download or clone this github folder, and place the data folder in it.
 
 ## Notes (before training): 
 1) Our soloution use 4 detection models, and 1 segmentation model to train seperately in different jupyter notebooks.
@@ -47,14 +47,17 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 4) As fully explaind in our report, we first pretrained each model with Livecell dataset, to do so, choose in each config file if to train on Livecell dataset or competition dataset.
 
 ## Training
-1) Open: /training_scripts/det/det1_cascade_rcnn_resnext.ipynb            (and run the notebook as instructed in it).
-2) Open: /training_scripts/det/det2_cascade_rcnn_resnest.ipynb            (and run the notebook as instructed in it).
-3) Open: /training_scripts/det/det3_faster_rcnn_swin.ipynb                (and run the notebook as instructed in it).
-4) Open: /training_scripts/det/det4_softteacher_faster_rcnn_resnext.ipynb (and run the notebook as instructed in it).
-5) Open: /training_scripts/seg/seg_upernet_swin.ipynb                     (and run the notebook as instructed in it).
-
+```
+1) Open notebook:   /training_scripts/det/det1_cascade_rcnn_resnext.ipynb            (and run the notebook as instructed in it).
+2) Open notebook:   /training_scripts/det/det2_cascade_rcnn_resnest.ipynb            (and run the notebook as instructed in it).
+3) Open notebook:   /training_scripts/det/det3_faster_rcnn_swin.ipynb                (and run the notebook as instructed in it).
+4) Open notebook:   /training_scripts/det/det4_softteacher_faster_rcnn_resnext.ipynb (and run the notebook as instructed in it).
+5) Open notebook:   /training_scripts/seg/seg_upernet_swin.ipynb                     (and run the notebook as instructed in it).
+```
 ## Inference/Test
+```
 Open: /inference_script/inference_det_and_seg.ipynb                    (and run the notebook as instructed in it).
+```
 
 The full test folder and its annotations of the competiotion is not available, so to test your results you must late submit it in Kaggle.
 
