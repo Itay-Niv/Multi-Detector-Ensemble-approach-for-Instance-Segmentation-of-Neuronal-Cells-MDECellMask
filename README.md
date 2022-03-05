@@ -36,9 +36,9 @@ Open notebook:   /utils/COCO_dataset_generator.ipynb          (run the notebook 
 ├───── train_semi_supervised
 ├───── train.csv
 ├───── test
-├───── ann_coco_sartorius_train_95_5
-├───── ann_coco_sartorius_val_95_5
-└───── ann_coco_semi
+├───── ann_coco_sartorius_train_95_5.json
+├───── ann_coco_sartorius_val_95_5.json
+└───── ann_coco_semi.json
 ```
 6) Download or clone this github folder, and place the data folder in it.
 
