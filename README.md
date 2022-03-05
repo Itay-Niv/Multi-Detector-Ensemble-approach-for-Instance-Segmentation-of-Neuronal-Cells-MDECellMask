@@ -21,7 +21,7 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 ```
 4) Crate annotation files for: a) train folder  b) train_semi_supervised folder:
 ```
-/utils/COCO_dataset_generator.ipynb (run the notebook as instructed in it).
+Open notebook:   /utils/COCO_dataset_generator.ipynb (run the notebook as instructed in it).
 ```
 
 5) Final data folder arangement:
@@ -59,7 +59,7 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 ```
 ## Inference/Test
 ```
-Open: /inference_script/inference_det_and_seg.ipynb                    (and run the notebook as instructed in it).
+Open notebook:   /inference_script/inference_det_and_seg.ipynb                    (and run the notebook as instructed in it).
 ```
 
 The full test folder and its annotations is not available, so to test your results you must late submit it in Kaggle's competition page.
