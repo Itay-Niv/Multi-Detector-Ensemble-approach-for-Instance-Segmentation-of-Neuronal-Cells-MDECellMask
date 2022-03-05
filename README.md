@@ -21,7 +21,7 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 ```
 4) Crate annotation files for: a) train folder  b) train_semi_supervised folder:
 ```
-Open notebook:   /utils/COCO_dataset_generator.ipynb (run the notebook as instructed in it).
+Open notebook:   /utils/COCO_dataset_generator.ipynb          (run the notebook as instructed in it).
 ```
 
 5) Final data folder arangement:
