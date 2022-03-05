@@ -59,5 +59,5 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 Open: /inference_script/inference_det_and_seg.ipynb                    (and run the notebook as instructed in it).
 ```
 
-The full test folder and its annotations of the competiotion is not available, so to test your results you must late submit it in Kaggle.
+The full test folder and its annotations is not available, so to test your results you must late submit it in Kaggle's competition page.
 
