@@ -5,7 +5,7 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 # Install
 1) Download or clone this github folder and name it "main_dir".
 2) Download install files: https://drive.google.com/drive/folders/1uNIgD5SsF_yy0DLYc7AFBUxhmKm_JPIP?usp=sharing
-3) Place the files fin folder main_dir/installs/.
+3) Place the files in folder main_dir/installs/.
 
 
 ## Data Preparation
