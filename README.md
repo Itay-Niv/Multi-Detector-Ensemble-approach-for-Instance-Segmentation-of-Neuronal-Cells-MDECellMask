@@ -64,7 +64,7 @@ Open notebook:   /utils/COCO_dataset_generator.ipynb          (run the notebook 
 
 
 ## Training
-Our soloution use 4 detection models, and 1 segmentation model to train independently in different jupyter notebooks. 
+Our soloution is composed of 4 detection models and 1 segmentation model. All models are trained independently from one another in seperate jupyter notebooks. 
 ```
 1) Open notebook:   main_dir/training_scripts/det/det1_cascade_rcnn_resnext.ipynb            (and run the notebook as instructed in it).
 2) Open notebook:   main_dir/training_scripts/det/det2_cascade_rcnn_resnest.ipynb            (and run the notebook as instructed in it).
