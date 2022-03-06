@@ -1,4 +1,4 @@
-# Kaggle-Sartorius-Cell-Instance-Segmentation---Multi-model-ensemble-
+# Kaggle Sartorius Cell-Instance Segmentation - Multi Model Ensemble
 
 https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 
@@ -53,14 +53,15 @@ Open notebook:   /utils/COCO_dataset_generator.ipynb          (run the notebook 
          (For example: main_dir/models/det/det1_cascade_rcnn_resnext/configs/config_det1_cascade_rcnn_resnext.py).
 3) Must modify in each config file the next parmaeters (lines 1-11): main_dir, exp_name, wnb_username, wnb_project_name, livecell_or_sartorius (as instructed in it).
 4) As fully explaind in our report, we first pretrained each model with Livecell dataset, to do so, choose in each config file if to train on Livecell dataset or competition dataset.
-5) 
 
 ## Weights
 
-1) Download pretrained weights from: https://drive.google.com/drive/folders/14XtWS7mgV8Snw8Th8vzWny_DadctFqin?usp=sharing
-* To load our final models' weights, follow the next steps:
-1) Download pretrained weights and final weights from: https://drive.google.com/drive/folders/14H9JhEJYmzQbvaEdQCzupx97kbzVLt0m?usp=sharing
-2) Place each weight file in the corresponding model folder. For example, in main_dir/models/det/det1_cascade_rcnn_resnext/pretrained_weights and main_dir/models/det/det1_cascade_rcnn_resnext/final_weights. 
+1) Download pretrained weights from: 
+         https://drive.google.com/drive/folders/14XtWS7mgV8Snw8Th8vzWny_DadctFqin?usp=sharing
+2) Place each weight file in the corresponding model folder. For example, in main_dir/models/det/det1_cascade_rcnn_resnext/pretrained_weights 
+* To load our final models' weights, download: 
+         https://drive.google.com/drive/folders/14V57zTyR3ICnEkGzEsFkR-qpFkoYxwi2?usp=sharing
+
 
 ## Training
 Our soloution use 4 detection models, and 1 segmentation model to train independently in different jupyter notebooks. 
@@ -76,5 +77,8 @@ Our soloution use 4 detection models, and 1 segmentation model to train independ
 Open notebook:   main_dir/inference_script/inference_det_and_seg.ipynb                    (and run the notebook as instructed in it).
 ```
 
-The full test folder and its annotations is not available, so to test your results you must late submit it in Kaggle's competition page.
+
+The full test folder and its annotations is not available. Hence the final evaluation is preformed by submiting the prediction in Kaggle's competition site.
+
+
 
