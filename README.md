@@ -48,17 +48,22 @@ Open notebook:   /utils/COCO_dataset_generator.ipynb          (run the notebook 
 6) Place the files inside the data folder in main_dir/data/.
 
 ## Notes (before training): 
-1) Our soloution use 4 detection models, and 1 segmentation model to train seperately in different jupyter notebooks.
+1) Our soloution use 4 detection models, and 1 segmentation model to train independently in different jupyter notebooks.
 2) To modify configurations/parameters, open and modify the config file coressponding to each model's folder according to https://mmdetection.readthedocs.io.
          (For example: main_dir/models/det/det1_cascade_rcnn_resnext/configs/config_det1_cascade_rcnn_resnext.py).
 3) Must modify in each config file the next parmaeters (lines 1-11): main_dir, exp_name, wnb_username, wnb_project_name, livecell_or_sartorius (as instructed in it).
 4) As fully explaind in our report, we first pretrained each model with Livecell dataset, to do so, choose in each config file if to train on Livecell dataset or competition dataset.
+5) 
 
 ## Weights
+
+1) Download pretrained weights from: https://drive.google.com/drive/folders/14XtWS7mgV8Snw8Th8vzWny_DadctFqin?usp=sharing
+* To load our final models' weights, follow the next steps:
 1) Download pretrained weights and final weights from: https://drive.google.com/drive/folders/14H9JhEJYmzQbvaEdQCzupx97kbzVLt0m?usp=sharing
 2) Place each weight file in the corresponding model folder. For example, in main_dir/models/det/det1_cascade_rcnn_resnext/pretrained_weights and main_dir/models/det/det1_cascade_rcnn_resnext/final_weights. 
 
 ## Training
+Our soloution use 4 detection models, and 1 segmentation model to train independently in different jupyter notebooks. 
 ```
 1) Open notebook:   main_dir/training_scripts/det/det1_cascade_rcnn_resnext.ipynb            (and run the notebook as instructed in it).
 2) Open notebook:   main_dir/training_scripts/det/det2_cascade_rcnn_resnest.ipynb            (and run the notebook as instructed in it).
