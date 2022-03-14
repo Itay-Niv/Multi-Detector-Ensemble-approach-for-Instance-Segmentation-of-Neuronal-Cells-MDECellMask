@@ -84,5 +84,5 @@ Open notebook:   main_dir/inference_script/inference_det_and_seg.ipynb          
 
 The full test folder and its annotations is not available. Hence the final evaluation is preformed by submiting the prediction in Kaggle's competition site.
 
-![overview](Figures/Segmentation Examples.png)
+![Segmentation_Examples](Figures/Segmentation_Examples.png)
 
