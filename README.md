@@ -1,6 +1,8 @@
-# Kaggle Sartorius Cell-Instance Segmentation - Multi Model Ensemble
+# Multi-detector ensemble approach for instance segmentation of neuronal cells (MDE-CellMask) - Kaggle Sartorius Competition
 
 https://www.kaggle.com/c/sartorius-cell-instance-segmentation
+
+Our implementation is based on MMDetection & PyTorch.
 
 # Install
 1) Download or clone this github folder and name it "main_dir".
