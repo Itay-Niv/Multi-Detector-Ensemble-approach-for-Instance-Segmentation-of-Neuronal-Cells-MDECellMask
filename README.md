@@ -1,4 +1,4 @@
-# Multi-detector ensemble approach for instance segmentation of neuronal cells (MDE-CellMask) - Kaggle Sartorius Competition
+# Multi-Detector Ensemble approach for Instance Segmentation of Neuronal Cells (MDE-CellMask) - Kaggle Sartorius Competition
 
 https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 
