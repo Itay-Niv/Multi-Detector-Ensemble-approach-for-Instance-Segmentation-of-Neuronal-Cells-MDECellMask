@@ -4,6 +4,8 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 
 Our implementation is based on MMDetection & PyTorch.
 
+![overview](Figures/overview.png)
+
 # Install
 1) Download or clone this github folder and name it "main_dir".
 2) Download install files: https://drive.google.com/drive/folders/1uNIgD5SsF_yy0DLYc7AFBUxhmKm_JPIP?usp=sharing
@@ -82,5 +84,5 @@ Open notebook:   main_dir/inference_script/inference_det_and_seg.ipynb          
 
 The full test folder and its annotations is not available. Hence the final evaluation is preformed by submiting the prediction in Kaggle's competition site.
 
-
+![overview](Figures/Segmentation Examples.png)
 
