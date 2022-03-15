@@ -56,7 +56,7 @@ Open notebook:   /utils/COCO_dataset_generator.ipynb          (run the notebook 
 2) To modify configurations/parameters, open and modify the config file coressponding to each model's folder according to https://mmdetection.readthedocs.io.
          (For example: main_dir/models/det/det1_cascade_rcnn_resnext/configs/config_det1_cascade_rcnn_resnext.py).
 3) Must modify in each config file the following parmaeters (lines 1-11): main_dir, exp_name, wnb_username, wnb_project_name, livecell_or_sartorius (as instructed in it).
-4) As fully explaind in our report, we first pretrained each model with Livecell dataset, to do so, choose in each config file if to train on Livecell dataset or competition dataset.
+4) As explained in our report, we first pretrained each model on the Livecell dataset, to do so, choose in each config file if to train on Livecell dataset or competition dataset.
 
 ## Weights
 
