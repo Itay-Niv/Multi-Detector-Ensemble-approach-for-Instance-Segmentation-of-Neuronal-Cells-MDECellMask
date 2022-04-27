@@ -4,7 +4,7 @@ https://www.kaggle.com/c/sartorius-cell-instance-segmentation
 
 Our implementation is based on MMDetection & PyTorch.
 
- [-Full report-](Itay-Niv/Multi-Detector-Ensemble-approach-for-Instance-Segmentation-of-Neuronal-Cells-MDECellMask/full report.pdf)
+ [-Full report-](https://github.com/Itay-Niv/Multi-Detector-Ensemble-approach-for-Instance-Segmentation-of-Neuronal-Cells-MDECellMask/full_report.pdf)
 
 ![overview](Figures/overview.png)
 
